@@ -144,6 +144,88 @@
         </center>
       </div>
     </div>  
+    <!---Center-->
+    <div class="mid">
+        <p1 style="color: black;">To-Do List &#127769;</p1>
+        <div class="a1" id="mon" style="display: block;">
+          <p2>&#10084; Monday</p2>
+          <div class="todoList">
+            <ul id="tasks-mon"></ul>
+            <input type="text" class="newTask" id="newTask-mon" placeholder="Add a new task">
+            <button onclick="addTask('mon')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="tue" style="display: none;">
+          <p2>&#10084; Tuesday</p2>
+          <div class="todoList">
+            <ul id="tasks-tue"></ul>
+            <input type="text" class="newTask" id="newTask-tue" placeholder="Add a new task">
+            <button onclick="addTask('tue')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="wed" style="display: none;">
+          <p2>&#10084; Wednesday</p2>
+          <div class="todoList">
+            <ul id="tasks-wed"></ul>
+            <input type="text" class="newTask" id="newTask-wed" placeholder="Add a new task">
+            <button onclick="addTask('wed')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="thu" style="display: none;">
+          <p2>&#10084; Thursday</p2>
+          <div class="todoList">
+            <ul id="tasks-thu"></ul>
+            <input type="text" class="newTask" id="newTask-thu" placeholder="Add a new task">
+            <button onclick="addTask('thu')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="fri" style="display: none;">
+          <p2>&#10084; Friday</p2>
+          <div class="todoList">
+            <ul id="tasks-fri"></ul>
+            <input type="text" class="newTask" id="newTask-fri" placeholder="Add a new task">
+            <button onclick="addTask('fri')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="sat" style="display: none;">
+          <p2>&#10084; Saturday</p2>
+          <div class="todoList">
+            <ul id="tasks-sat"></ul>
+            <input type="text" class="newTask" id="newTask-sat" placeholder="Add a new task">
+            <button onclick="addTask('sat')">・❥・</button>
+          </div>
+          <br>
+        </div>
+      
+        <div class="a1" id="sun" style="display: none;">
+          <p2>&#10084; Sunday</p2>
+          <div class="todoList">
+            <ul id="tasks-sun"></ul>
+            <input type="text" class="newTask" id="newTask-sun" placeholder="Add a new task">
+            <button onclick="addTask('sun')">・❥・</button>
+          </div>
+          <br>
+        </div>
+        <br>
+      </div>
+      <div class="mid">
+        <center>
+          <div class="container">
+            <p1 style="color: #000;">Brain Dump</p1><br>
+            <textarea id="brainDump" placeholder="Write down your thoughts, ideas, or anything on your mind..."></textarea>
+          </div>
+        </center>
+      </div>
     <!---Right side-->
     <div class="right">
       <div class="b1">
@@ -175,88 +257,7 @@
       </div>
       <br><br>
     </div>
-    <!---Center-->
-    <div class="mid">
-      <p1 style="color: black;">To-Do List &#127769;</p1>
-      <div class="a1" id="mon" style="display: block;">
-        <p2>&#10084; Monday</p2>
-        <div class="todoList">
-          <ul id="tasks-mon"></ul>
-          <input type="text" class="newTask" id="newTask-mon" placeholder="Add a new task">
-          <button onclick="addTask('mon')">・❥・</button>
-        </div>
-        <br>
-      </div>
     
-      <div class="a1" id="tue" style="display: none;">
-        <p2>&#10084; Tuesday</p2>
-        <div class="todoList">
-          <ul id="tasks-tue"></ul>
-          <input type="text" class="newTask" id="newTask-tue" placeholder="Add a new task">
-          <button onclick="addTask('tue')">・❥・</button>
-        </div>
-        <br>
-      </div>
-    
-      <div class="a1" id="wed" style="display: none;">
-        <p2>&#10084; Wednesday</p2>
-        <div class="todoList">
-          <ul id="tasks-wed"></ul>
-          <input type="text" class="newTask" id="newTask-wed" placeholder="Add a new task">
-          <button onclick="addTask('wed')">・❥・</button>
-        </div>
-        <br>
-      </div>
-    
-      <div class="a1" id="thu" style="display: none;">
-        <p2>&#10084; Thursday</p2>
-        <div class="todoList">
-          <ul id="tasks-thu"></ul>
-          <input type="text" class="newTask" id="newTask-thu" placeholder="Add a new task">
-          <button onclick="addTask('thu')">・❥・</button>
-        </div>
-        <br>
-      </div>
-    
-      <div class="a1" id="fri" style="display: none;">
-        <p2>&#10084; Friday</p2>
-        <div class="todoList">
-          <ul id="tasks-fri"></ul>
-          <input type="text" class="newTask" id="newTask-fri" placeholder="Add a new task">
-          <button onclick="addTask('fri')">・❥・</button>
-        </div>
-        <br>
-      </div>
-    
-      <div class="a1" id="sat" style="display: none;">
-        <p2>&#10084; Saturday</p2>
-        <div class="todoList">
-          <ul id="tasks-sat"></ul>
-          <input type="text" class="newTask" id="newTask-sat" placeholder="Add a new task">
-          <button onclick="addTask('sat')">・❥・</button>
-        </div>
-        <br>
-      </div>
-    
-      <div class="a1" id="sun" style="display: none;">
-        <p2>&#10084; Sunday</p2>
-        <div class="todoList">
-          <ul id="tasks-sun"></ul>
-          <input type="text" class="newTask" id="newTask-sun" placeholder="Add a new task">
-          <button onclick="addTask('sun')">・❥・</button>
-        </div>
-        <br>
-      </div>
-      <br>
-    </div>
-    <div class="mid">
-      <center>
-        <div class="container">
-          <p1 style="color: #000;">Brain Dump</p1><br>
-          <textarea id="brainDump" placeholder="Write down your thoughts, ideas, or anything on your mind..."></textarea>
-        </div>
-      </center>
-    </div>
   </body>
   <script>
     function updateTime() {
