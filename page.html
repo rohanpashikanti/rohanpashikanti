@@ -14,7 +14,6 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="https://rohanpashikanti.github.io/rohanpashikanti/page4.css">
         <style>
             * {
                 box-sizing: border-box;
@@ -277,6 +276,64 @@
             .g6 {
                 background-image: url('https://rohanpashikanti.github.io/rohanpashikanti/mg2.png');
             }
+            /* PAGE 4 */
+            .logo-cart{
+                height: 60px;
+                width: 60px;
+                object-fit: cover;
+            }
+            .logo-cart i{
+                margin: 20%;
+                font-size: 25px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+            .pro{
+                margin: 5%;
+                background-color: whitesmoke;
+                border: none;
+                border-radius: 16px;
+                height: 560px;
+                width: 80%;
+            }
+            .pic{
+                object-fit: cover;
+                height: 270px;
+                width: 270px;
+            }
+            img{
+                height: 270px;
+                width: 270px;
+            }
+            .det{
+                text-align: center;
+                margin: 5%;
+            }
+            .name{
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+            .pb{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                background-color: aqua;
+                border: none;
+                border-radius: 20px;
+                width: 300px;
+            }
+            .b2{
+                margin: 5%;
+                border: none;
+                border-radius: 16px;
+                width: 110px;
+                height: 42px;
+                font-size: 15px;
+                background-color: green;
+            }
+            .pri{
+                margin: 5%;
+            }
         </style>
     </head>
     <header>
@@ -350,39 +407,33 @@
             <br><br>
             <button class="b1" onclick="next3()" style="margin-top: -15px; ">Back</button>
             <br><br><br><br>
-            <div class="product-card">
-                <div class="logo-cart" style="float: right;">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-                <br><br><br><br>
-                <div class="main-images">
-                    <img
-                    id="blue"
-                    class="blue active"
-                    src="https://rohanpashikanti.github.io/rohanpashikanti/mg4.png"
-                    alt="blue"
-                    />
-                </div>
-                <div class="shoe-details">
-                    <span class="shoe_name">ADDIDAS GAZE ZX</span>
-                    <p>
-                        Lorem ipsum dolor sit lorenm i amet, consectetur adipisicing elit.
-                        Eum, ea, ducimus!
-                    </p>
-                </div>
-                <br>
-                <div class="color-price">
-                    <div class="price">
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/rohanpashikanti/mg4.png">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">ADDIDAS GAZE ZX</span>
                         <br>
-                        <span class="price_num">$09.00</span>
-                        <span class="price_letter">Nine dollar only</span>
+                        <p3>
+                            Lorem ipsum dolor sit lorenm i amet, consectetur adipisicing elit.
+                            Eum, ea, ducimus!
+                        </p3>
                     </div>
-                    <div class="button">
-                        <div class="button-layer"></div>
-                        <button>Add To Cart</button>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p2 style="font-size: 20px;">$09.00</p2>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Add To Cart</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </center>
         </div>
     </body>
     <script>
