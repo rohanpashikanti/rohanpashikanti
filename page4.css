@@ -39,12 +39,12 @@
         }
         .product-card .main-images{
             position: relative;
-            height: 300px;
+            height: 200px;
         }
         .product-card .main-images img{
             position: absolute;
-            height: 300px;
-            width: 300px;
+            height: 200px;
+            width: 200px;
             object-fit: cover;
             left: 12px;
             top: -40px;
