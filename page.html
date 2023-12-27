@@ -49,6 +49,14 @@
             body.dark p2 {
                 color: #fff;
             }
+            body.dark .pb{
+                background-image: linear-gradient(to right,#7D7BE6, #9558A6);
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            }
+            body.dark .b2{
+                background-image: linear-gradient(to right,#F9E8FD, #EBCCFA);
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            }
             body.dark h1, body.dark .support a {
                 color: #fff;
             }
@@ -119,6 +127,10 @@
             }
             .page0 img{
                 margin-top: 310px;
+            }
+            .page0 .b1{
+                margin-top: 200px;
+                margin-bottom: 2%;
             }
             /* PAGE 1 */
             .page1 {
@@ -222,7 +234,7 @@
             }
             /* PAGE 3 */
             .gr {
-                margin-left: 3%;
+                margin-left: 5%;
                 background-color: rgba(255, 255, 255, 0.5); 
                 border: none;
                 border-radius: 16px;
@@ -275,6 +287,7 @@
             /* PAGE 4 */
             .page4{
                 margin: 5%;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
             }
             .logo-cart{
                 height: 60px;
@@ -290,9 +303,10 @@
             .pro{
                 margin: 5%;
                 background-color: whitesmoke;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
                 border: none;
                 border-radius: 16px;
-                height: 570px;
+                height: 590px;
                 width: 80%;
             }
             .pic{
@@ -316,7 +330,8 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
-                background-color: aqua;
+                background-image: linear-gradient(to right,#F9E8FD, #EBCCFA);
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
                 border: none;
                 border-radius: 20px;
                 width: 270px;
@@ -328,7 +343,7 @@
                 width: 110px;
                 height: 50px;
                 font-size: 15px;
-                background-color: green;
+                background-image: linear-gradient(to right,#7D7BE6, #9558A6);
             }
             .pri{
                 margin: 5%;
@@ -352,24 +367,23 @@
                 <img src="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" style="height: 80px; width: 80px;"><br>
                 <p2>GIFTIFY</p2>
             </center>
-            <br><br><br><br><br><br><br><br><br>
             <button class="b1" onclick="next1()"> Continue</button>
             <br>
         </div>
         <div class="page1" style="display: none;">
             <div class="eve1" onclick="next2()">
             </div>
-            <div class="eve2">
+            <div class="eve2" onclick="next2()">
             </div>
-            <div class="eve3">
+            <div class="eve3" onclick="next2()">
             </div>
-            <div class="eve4">
+            <div class="eve4" onclick="next2()">
             </div>
-            <div class="eve5">
+            <div class="eve5" onclick="next2()">
             </div>
-            <div class="eve6">
+            <div class="eve6" onclick="next2()">
             </div>
-            <div class="eve7">
+            <div class="eve7" onclick="next2()">
             </div>
         </div>
         <div id="page2" style="display: none;">
@@ -378,11 +392,11 @@
             <br><br>
             <div class="rel">
                 <div class="per1" onclick="next3()"></div>
-                <div class="per2"></div>
-                <div class="per3"></div>
-                <div class="per4"></div>
-                <div class="per5"></div>
-                <div class="per6"></div>
+                <div class="per2" onclick="next3()"></div>
+                <div class="per3" onclick="next3()"></div>
+                <div class="per4" onclick="next3()"></div>
+                <div class="per5" onclick="next3()"></div>
+                <div class="per6" onclick="next3()"></div>
             </div>
         </div>
         <div class="pa3" id="page3" style="display: none;">
@@ -393,11 +407,11 @@
             <br><br>
             <div class="gr">
                 <div class="g1" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="g2"><div class="gg1"></div><br></div>
-                <div class="g3"><div class="gg1"></div><br></div>
-                <div class="g4"><div class="gg1"></div><br></div>
-                <div class="g5"><div class="gg1"></div><br></div>
-                <div class="g6"><div class="gg1"></div><br></div>
+                <div class="g2" onclick="next4()"><div class="gg1"></div><br></div>
+                <div class="g3" onclick="next4()"><div class="gg1"></div><br></div>
+                <div class="g4" onclick="next4()"><div class="gg1"></div><br></div>
+                <div class="g5" onclick="next4()"><div class="gg1"></div><br></div>
+                <div class="g6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
         </div>
@@ -415,17 +429,16 @@
                         <img src="https://rohanpashikanti.github.io/rohanpashikanti/mg4.png">
                     </div><br><br><br>
                     <div class="det">
-                        <span class="name">ADDIDAS GAZE ZX</span>
+                        <span class="name">PHOTO FRAME</span>
                         <br>
                         <p3>
-                            Lorem ipsum dolor sit lorenm i amet, consectetur adipisicing elit.
-                            Eum, ea, ducimus!
+                            Gift your mother this LED photo frame on Mother's Day. The frame, made in MDF features 8 personalized.
                         </p3>
                     </div>
                     <br><br>
                     <div class="pb">
                         <div class="pri">
-                            <p2 style="font-size: 20px;">$09.00</p2>
+                            <p3 style="font-size: 25px;">$09.00</p3>
                         </div>
                         <div class="but">
                             <button class="b2">Add To Cart</button>
