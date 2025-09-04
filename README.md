@@ -39,8 +39,14 @@
 ###
 
 <br clear="both">
+<p align="left">
+  🔭 I’m currently in my <b>Final Year</b> and exploring <b>Job Opportunities</b><br><br>
+  🌱 I’m focused on enhancing my <b>skills and career growth</b><br><br>
+  👨‍💻 Check out my projects: <a href="https://rohanpashikanti.github.io/portfolio/" target="_blank">Portfolio</a><br><br>
+  📫 Reach me at: <a href="mailto:rohan.pashikanti15@gmail.com">rohan.pashikanti15@gmail.com</a><br><br>
+  📄 View my experiences: <a href="https://drive.google.com/file/d/1UCNaAYCcsB3Qxjw_A8t-flWUp4gQyIj0/view" target="_blank">Resume</a>
+</p>
 
-<p align="left">🔭 I’m currently working on Data Analysis<br><br>🌱 I’m currently learning Data Science<br><br>👨‍💻 All of my projects are available at https://rohanpashikanti.github.io/portfolio/<br><br>📫 How to reach me rohan.pashikanti15@gmail.com<br><br>📄 Know about my experiences https://drive.google.com/file/d/1UCNaAYCcsB3Qxjw_A8t-flWUp4gQyIj0/view</p>
 
 ###
 
